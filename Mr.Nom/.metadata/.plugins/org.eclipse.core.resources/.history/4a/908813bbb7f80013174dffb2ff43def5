@@ -1,0 +1,5 @@
+package com.badlogic.androidgames.framework.imp;
+
+public class AndroidSound {
+
+}
