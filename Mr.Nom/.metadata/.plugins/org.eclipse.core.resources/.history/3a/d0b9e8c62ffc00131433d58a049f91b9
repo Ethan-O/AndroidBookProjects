@@ -1,0 +1,10 @@
+package com.badlogic.androidgames.framework.imp;
+
+import android.graphics.Bitmap;
+
+import com.badlogic.androidgames.framework.Graphics.PixmapFormat;
+import com.badlogic.androidgames.framework.Pixmap;
+
+public class AndroidPixmap {
+
+}

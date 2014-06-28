@@ -1,0 +1,12 @@
+package com.badlogic.androidgames.mrnom;
+
+import com.badlogic.androidgames.framework.Game;
+import com.badlogic.androidgames.framework.Graphics;
+import com.badlogic.androidgames.framework.Input.TouchEvent;
+import com.badlogic.androidgames.framework.Screen;
+
+public class HelpScreen extends Screen {
+	public HelpScreen(Game game){
+		super(game);
+	}
+}

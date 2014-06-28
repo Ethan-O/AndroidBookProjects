@@ -1,0 +1,23 @@
+package com.badlogic.androidgames.framework.imp;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.res.Configuration;
+import android.graphics.Bitmap;
+import android.graphics.Bitmap.Config;
+import android.os.Bundle;
+import android.os.PowerManager;
+import android.os.PowerManager.WakeLock;
+import andorid.view.Window;
+import android.view.WindowManager;
+
+import com.badlogic.androidgames.framework.Audio;
+import com.badlogic.androidgames.framework.FileIO;
+import com.badlogic.androidgames.framework.Game;
+import com.badlogic.androidgames.framework.Graphics;
+import com.badlogic.androidgames.framework.Input;
+import com.badlogic.androidgames.framework.Screen;
+
+public class AndroidGame {
+
+}

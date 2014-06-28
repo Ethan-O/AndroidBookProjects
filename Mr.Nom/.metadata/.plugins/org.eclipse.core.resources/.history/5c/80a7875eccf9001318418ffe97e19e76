@@ -1,0 +1,11 @@
+package com.badlogic.androidgames.framework.imp;
+
+import java.util.List;
+
+import android.view.View.OnTouchListener;
+
+import android.
+
+public class TouchHandler {
+
+}

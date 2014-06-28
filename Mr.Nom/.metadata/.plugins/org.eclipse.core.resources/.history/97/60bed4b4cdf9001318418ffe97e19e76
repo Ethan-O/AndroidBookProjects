@@ -1,0 +1,5 @@
+package com.badlogic.androidgames.framework;
+
+public class Input {
+
+}

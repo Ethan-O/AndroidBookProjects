@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.badlogic.androidgames.framework.Audio"/>
-<fullyQualifiedTypeName name="android.content.RestrictionEntry"/>
 <fullyQualifiedTypeName name="android.media.MediaPlayer.OnCompletionListener"/>
 <fullyQualifiedTypeName name="android.hardware.SensorEventListener"/>
+<fullyQualifiedTypeName name="android.view.KeyEvent"/>
+<fullyQualifiedTypeName name="android.view.View.OnTouchListener"/>
+<fullyQualifiedTypeName name="com.badlogic.androidgames.framework.Input.TouchEvent"/>
+<fullyQualifiedTypeName name="com.badlogic.androidgames.framework.Pool"/>
+<fullyQualifiedTypeName name="android.os.Build.VERSION"/>
+<fullyQualifiedTypeName name="android.content.RestrictionEntry"/>
+<fullyQualifiedTypeName name="android.graphics.Paint"/>
+<fullyQualifiedTypeName name="android.graphics.Canvas"/>
+<fullyQualifiedTypeName name="android.os.PowerManager.WakeLock"/>
+<fullyQualifiedTypeName name="android.view.WindowManager.LayoutParams"/>
+<fullyQualifiedTypeName name="com.badlogic.androidgames.framework.Input"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

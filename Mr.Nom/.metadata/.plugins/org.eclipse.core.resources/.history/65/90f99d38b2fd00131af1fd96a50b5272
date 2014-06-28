@@ -1,0 +1,5 @@
+package com.badlogic.androidgames.mrnom;
+
+public class HighscoreScreen {
+
+}

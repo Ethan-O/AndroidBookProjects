@@ -1,0 +1,5 @@
+package com.badlogic.androidgames.framework.Input;
+
+public class TouchEvent {
+
+}

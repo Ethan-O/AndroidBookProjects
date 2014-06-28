@@ -1,0 +1,14 @@
+package com.badlogic.androidgames.mrnom;
+
+import java.util.List;
+
+import com.badlogic.androidgames.framework.Game;
+import com.badlogic.androidgames.framework.Graphics;
+import com.badlogic.androidgames.framework.Input.TouchEvent;
+import com.badlogic.androidgames.framework.Screen;
+
+public class MainMenuScreen extends Screen {
+	public MainMenuScreen(Game game){
+		super(game);
+	}
+}

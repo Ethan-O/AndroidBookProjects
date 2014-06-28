@@ -1,0 +1,57 @@
+package com.badlogic.androidgames.mrnom;
+
+import java.util.List;
+
+import android.graphics.Color;
+
+import com.badlogic.androidgames.framework.Game;
+import com.badlogic.androidgames.framework.Graphics;
+import com.badlogic.androidgames.framework.Input.TouchEvent;
+import com.badlogic.androidgames.framework.Pixmap;
+import com.badlogic.androidgames.framework.Screen;
+
+public class GameScreen extends Screen{
+	enum GameState {
+		Ready,
+		Running,
+		Paused,
+		GameOver
+	}
+	
+	GameState state = GameState.Ready;
+	World world;
+	int oldScore = 0;
+	String score = "0";
+	
+	public GameScreen(Game game){
+		super(game);
+		world = new World();
+	}
+	
+	@Override
+	public void update(float deltaTime) {
+		List < TouchEvent> touchEvents = game.getInput().getTouchEvents();
+		game.getInput().getKeyEvents();
+		
+		if(state == GameState.Ready)
+			updateReady(touchEvents);
+		if(state == GameState.Running)
+			updateRunning(touchEvents, deltaTime);
+		if(state == GameState.Paused)
+			updatePaused(touchEvents);
+		if(state == GameState.GameOver)
+			updateGameOver(touchEvents);
+	}
+	
+	public void updateReady(List<TouchEvent> touchEvents){
+		if(touchEvents.size() > 0)
+			state = GameState.Running;
+	}
+	
+	public void updateRunning(List <TouchEvent> touchEvents){
+		int len = touchEvents.size();
+		for(int i = 0; i < len; i++){
+			TouchEvent ev
+		}
+	}
+}
